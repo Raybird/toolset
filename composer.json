@@ -1,0 +1,27 @@
+{
+    "name": "raybird/toolset",
+    "description": "php",
+    "type": "project",
+    "require": {
+        "php-di/slim-bridge": "^1.0",
+        "vlucas/phpdotenv": "^2.4",
+        "slim/pdo": "^1.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "raybird",
+            "email": "a691228@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "recca0120/laravel-tracy": "^1.8",
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Raybird\\Toolset\\": "src"
+        }
+    }
+}
