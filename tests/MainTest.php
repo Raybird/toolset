@@ -11,6 +11,6 @@ final class MainTest extends TestCase
 {
     public function testConst()
     {
-        $this->assertEquals('0.0.0', Main::VERSION);
+        $this->assertEquals('0.0.1', Main::VERSION);
     }
 }
